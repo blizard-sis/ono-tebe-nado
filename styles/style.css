@@ -36,39 +36,83 @@
 }
 
 .cover {
+    position: relative;
+    height: 757px;
+}
+
+.cover__image {
     background-image: url('../images/cover.jpg');
     background-size: cover;
-    background-color: black;
-    height: 757px;
-    opacity: 60%;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.cover__content {
+    position: relative;
+    z-index: 1;
+    color: white;
 }
 
 .cover_title {
     display: flex;
     flex-direction: column;
-    padding: 165px 50px 237px;
-}
-
-.accent-span {
-    width: 100%;
-    color: white;
-    font-family: 'Raleway', serif;
-    font-weight: bold;
+    padding: 165px 50px 135px;
     font-size: 100px;
-    letter-spacing: 0.5em;
+    font-weight: bold;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
 }
 
-.text-left {
+.aligned-text {
     text-align: left;
     line-height: 115px;
 }
 
-.text-center{
+.aligned-text_center {
     text-align: center;
 }
 
-.text-right {
+.aligned-text_right {
     text-align: right;
+}
+
+.double-spacing {
+    letter-spacing: 0.5em;
+}
+
+.cover__description {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 50px;
+    align-items: center;
+}
+
+.cover__description-text {
+    font-size: 22px;
+    text-transform: uppercase;
+    word-spacing: 0.9em;
+}
+
+.bet-button {
+    background-color: rgba(255, 255, 255, 0.0);
+    border: 1px solid white; 
+    color: white;
+    padding: 10px 30px;
+    font-size: 22px;
+    text-transform: uppercase;
+    cursor: pointer;
 }
 
 .footer {
