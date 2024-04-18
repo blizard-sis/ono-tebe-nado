@@ -1,7 +1,7 @@
 .header {
     padding: 92px 24px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
     align-items: center;
     justify-items: center;
 }
@@ -12,7 +12,6 @@
     list-style: circle;
     gap: 24px;
     font-size: 18px;
-    overflow: visible;
     white-space: nowrap;
 }
 
