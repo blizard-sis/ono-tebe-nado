@@ -136,7 +136,7 @@
 .lots__list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
+    gap: 25px;
     list-style-type: none;
 }
 
@@ -167,7 +167,7 @@
 }
 
 .card {
-    padding: 48px;
+    padding: 38px;
     color: white;
     display: flex;
     flex-direction: column;
