@@ -10,9 +10,8 @@
     display: flex;
     flex-direction: row;
     list-style: circle;
-    gap: 24px;
+    gap: 30px;
     font-size: 18px;
-    white-space: nowrap;
 }
 
 .header__links-list-item_no-bullit {
@@ -24,8 +23,8 @@
 }
 
 .header__logo {
-    width: 148px;
-    height: 105px;
+    width: 135px;
+    height: 100px;
 }
 
 .address {
