@@ -1,9 +1,9 @@
 .header {
-    position: relative;
     padding: 92px 24px;
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
+    justify-items: center;
 }
 
 .header__menu-list {
@@ -12,6 +12,8 @@
     list-style: circle;
     gap: 24px;
     font-size: 18px;
+    overflow: visible;
+    white-space: nowrap;
 }
 
 .header__links-list-item_no-bullit {
@@ -23,9 +25,6 @@
 }
 
 .header__logo {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
     width: 148px;
     height: 105px;
 }
@@ -89,7 +88,7 @@
 }
 
 .double-spacing {
-    letter-spacing: 0.5em;
+    letter-spacing: 0.4em;
 }
 
 .cover__description {
