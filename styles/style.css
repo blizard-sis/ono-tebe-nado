@@ -236,7 +236,7 @@
 }
 
 .footer {
-    padding: 88px 50px;
+    padding: 180px 50px 88px;
     display: flex;
     justify-content: space-between;
     align-items: center;
