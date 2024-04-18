@@ -27,7 +27,7 @@
 
 .header__logo {
     width: 135px;
-    height: 100px;
+    height: 105px;
 }
 
 .address {
@@ -86,10 +86,12 @@
 
 .aligned-text_center {
     text-align: center;
+    line-height: 100px;
 }
 
 .aligned-text_right {
     text-align: right;
+    line-height: 100px;
 }
 
 .double-spacing {
