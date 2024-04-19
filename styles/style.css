@@ -70,7 +70,7 @@
 .cover_title {
     display: flex;
     flex-direction: column;
-    padding: 165px 50px 135px;
+    padding: 165px 50px 130px;
     font-size: 100px;
     font-weight: bold;
     letter-spacing: 0.3em;
@@ -99,11 +99,12 @@
 .cover__description {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px;
+    padding: 50px;
     align-items: center;
 }
 
 .cover__description-text {
+    padding-left: 25px;
     font-size: 22px;
     text-transform: uppercase;
     word-spacing: 0.9em;
