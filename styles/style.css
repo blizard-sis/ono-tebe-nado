@@ -73,7 +73,7 @@
     padding: 165px 50px 130px;
     font-size: 100px;
     font-weight: bold;
-    letter-spacing: 0.3em;
+    letter-spacing: 30px;
     text-transform: uppercase;
 }
 
@@ -93,7 +93,7 @@
 }
 
 .double-spacing {
-    letter-spacing: 0.45em;
+    letter-spacing: 50px;
 }
 
 .cover__description {
