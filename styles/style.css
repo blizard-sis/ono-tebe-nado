@@ -96,6 +96,10 @@
     letter-spacing: 60px;
 }
 
+.no-spacing {
+    letter-spacing: 0;
+}
+
 .cover__description {
     display: flex;
     justify-content: space-between;
