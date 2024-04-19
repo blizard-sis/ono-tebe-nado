@@ -80,17 +80,17 @@
 
 .aligned-text {
     text-align: left;
-    height: 115px;
+    line-height: 115px;
 }
 
 .aligned-text_center {
     text-align: center;
-    height: 100px;
+    line-height: 100px;
 }
 
 .aligned-text_right {
     text-align: right;
-    height: 100px;
+    line-height: 100px;
 }
 
 .double-spacing {
