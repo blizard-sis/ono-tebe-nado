@@ -68,7 +68,7 @@
     color: white;
 }
 
-.cover_title {
+.cover__title {
     display: flex;
     flex-direction: column;
     padding: 165px 50px 90px;
