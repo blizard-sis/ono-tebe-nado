@@ -70,11 +70,12 @@
 .cover_title {
     display: flex;
     flex-direction: column;
-    padding: 165px 50px 130px;
+    padding: 165px 50px 90px;
     font-size: 100px;
     font-weight: bold;
     letter-spacing: 30px;
     text-transform: uppercase;
+    gap: 20px;
 }
 
 .aligned-text {
