@@ -140,10 +140,6 @@
     list-style-type: none;
 }
 
-.lots__card-link {
-    text-decoration: none;
-}
-
 .lots__card-list-item {
     display: flex;
 }
@@ -162,6 +158,7 @@
 
 .lots__card-link {
     background: rgba(0, 0, 0, 0.6);
+    text-decoration: none;
     padding: 48px 38px;
     color: white;
     display: flex;
