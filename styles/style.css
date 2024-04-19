@@ -79,17 +79,17 @@
 
 .aligned-text {
     text-align: left;
-    line-height: 115px;
+    height: 115px;
 }
 
 .aligned-text_center {
     text-align: center;
-    line-height: 100px;
+    height: 100px;
 }
 
 .aligned-text_right {
     text-align: right;
-    line-height: 100px;
+    height: 100px;
 }
 
 .double-spacing {
